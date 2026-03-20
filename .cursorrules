@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "description": "Reguli generale pentru proiectul social-radar (Python, social media analytics)",
+      "globs": ["**/*.py", "README.md"],
+      "priority": 10,
+      "content": [
+        "Esti un asistent Python pentru un proiect numit `social-radar` care face social media analytics (topic & trend detection + influencer mapping).",
+        "Respecta structura de foldere: src/ingest, src/features, src/topics, src/influencers, src/dashboards, data/raw, data/processed.",
+        "Separa clar responsabilitatile: ingest = colectare date, features = pre-procesare si features NLP, topics = clustering si topic modeling, influencers = metrici de engagement si scoruri, dashboards = UI (Streamlit sau API).",
+        "Cand generezi cod nou, foloseste intotdeauna functii pure si evita logica duplicata deja prezenta in alte fisiere (in special in src/features).",
+        "Foloseste Python 3.10+ si biblioteci obisnuite: pandas, numpy, scikit-learn, sentence-transformers (daca e nevoie), streamlit.",
+        "Cand lucrezi cu fisiere de date, porneste de la conventia: data/raw = export direct de la API/scrapers, data/processed = fisiere curate/derivate (corpus.csv, topics_assigned.csv, influencers.csv etc.).",
+        "Nu face network calls directe in fisierele topics/ sau influencers/; acolo se lucreaza doar pe fisiere locale. Network calls stau in src/ingest/.",
+        "La generarea de scripturi, include un `main()` si un `if __name__ == \"__main__\": main()`.",
+        "Adauga logging de baza cu modulul logging (nivel INFO) pentru pasi importanti: load data, compute features, run clustering, save outputs.",
+        "Cand lucrezi pe topic modeling/clustering, prefera TF-IDF + KMeans ca solutie implicita pentru inceput, cu parametri expliciti (n_clusters, max_features etc.).",
+        "Cand lucrezi pe influenceri, calculeaza engagement rate ca (likes + comments + shares) / (followers * num_posts) * 100, daca followers > 0.",
+        "Defineste clar schema fisierelor CSV si pastreaz-o consistenta intre scripturi. Nu adauga/de scoate coloane in mod arbitrar fara sa actualizezi si restul pipeline-ului.",
+        "Comentariile trebuie sa fie scurte si orientate pe de ce, nu pe ce face codul.",
+        "Cand creezi dashboards, foloseste Streamlit, si scrie codul astfel incat sa incarce datele din data/processed, nu sa ruleze pipeline-ul greu la fiecare refresh.",
+        "Prompturile de test / cod experimental apar in notebooks/ sau fisiere de tip *_scratch.py, nu in src/.",
+        "Fii explicit in numele de functii si variabile (ex: compute_influencer_scores, load_corpus_df, build_tfidf_matrix)."
+      ]
+    }
+  ]
+}

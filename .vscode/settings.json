@@ -1,0 +1,9 @@
+{
+  "python.defaultInterpreterPath": "C:\\Users\\octav\\miniconda3\\python.exe",
+  "python.analysis.extraPaths": [
+    "C:\\Users\\octav\\miniconda3\\Lib\\site-packages"
+  ],
+  "basedpyright.analysis.extraPaths": [
+    "C:\\Users\\octav\\miniconda3\\Lib\\site-packages"
+  ]
+}

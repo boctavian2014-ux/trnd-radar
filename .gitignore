@@ -1,0 +1,26 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env / secrets
+.env
+.env.*.local
+
+# Data outputs
+logs/
+data/charts/
+outputs/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.cursor/
+
+# Nested repos / generated projects
+social-trends202/
+trend-scout-ro/
+waoe123/
+register-startup-tasks.ps1
+setup-autostart.ps1

@@ -1,0 +1,31 @@
+post_id,platform,author_id,text,created_at
+p001,reddit,u1001,"AI agents automate social media workflows and content planning",2026-03-15T08:00:00Z
+p002,tiktok,u2001,"Romania food trend with viral recipes and quick cooking hacks",2026-03-15T08:05:00Z
+p003,reddit,u1002,"Crypto market sentiment rises after bitcoin breakout and ETF news",2026-03-15T08:10:00Z
+p004,twitter,u3001,"New gaming laptop benchmarks and fps tests dominate tech timeline",2026-03-15T08:15:00Z
+p005,reddit,u1003,"Remote work productivity tools and async communication best practices",2026-03-15T08:20:00Z
+p006,tiktok,u2002,"Skincare routine for sensitive skin with affordable products",2026-03-15T08:25:00Z
+p007,reddit,u1004,"Football transfer rumors and derby match predictions this weekend",2026-03-15T08:30:00Z
+p008,twitter,u3002,"Electric vehicle charging network expansion across europe",2026-03-15T08:35:00Z
+p009,reddit,u1005,"Machine learning model drift monitoring and retraining strategy",2026-03-15T08:40:00Z
+p010,tiktok,u2003,"Travel vlog in Bucharest with hidden places and coffee spots",2026-03-15T08:45:00Z
+p011,reddit,u1001,"NLP pipelines for topic detection and trend analysis in reddit posts",2026-03-15T08:50:00Z
+p012,twitter,u3003,"UEFA champions league highlights and top goals recap",2026-03-15T08:55:00Z
+p013,reddit,u1002,"Dividend investing strategy and portfolio rebalancing in volatile markets",2026-03-15T09:00:00Z
+p014,tiktok,u2004,"Home workout challenge with bodyweight exercises and motivation tips",2026-03-15T09:05:00Z
+p015,reddit,u1003,"Cloud costs optimization for startups using autoscaling and spot instances",2026-03-15T09:10:00Z
+p016,twitter,u3004,"New smartphone camera test low light comparison and zoom quality",2026-03-15T09:15:00Z
+p017,reddit,u1004,"Romanian politics debate and local election campaign narratives",2026-03-15T09:20:00Z
+p018,tiktok,u2005,"Fashion outfit ideas for spring with minimalist style trends",2026-03-15T09:25:00Z
+p019,reddit,u1005,"Basketball playoff race analysis and player efficiency stats",2026-03-15T09:30:00Z
+p020,twitter,u3005,"Cybersecurity breach response checklist for small businesses",2026-03-15T09:35:00Z
+p021,reddit,u1001,"Startups fundraising tips and pitch deck storytelling examples",2026-03-15T09:40:00Z
+p022,tiktok,u2006,"Booktok recommendations for productivity and personal growth",2026-03-15T09:45:00Z
+p023,reddit,u1002,"Climate policy updates and renewable energy investments in EU",2026-03-15T09:50:00Z
+p024,twitter,u3006,"F1 qualifying session surprises and race strategy discussions",2026-03-15T09:55:00Z
+p025,reddit,u1003,"Data engineering pipelines with airflow orchestration and testing",2026-03-15T10:00:00Z
+p026,tiktok,u2007,"Street interview trend about salaries and career switching",2026-03-15T10:05:00Z
+p027,reddit,u1004,"Mental health routines for creators and burnout prevention habits",2026-03-15T10:10:00Z
+p028,twitter,u3007,"Stock market opening moves and macroeconomic signals to watch",2026-03-15T10:15:00Z
+p029,reddit,u1005,"Python automation scripts for analytics dashboards and reporting",2026-03-15T10:20:00Z
+p030,tiktok,u2008,"Comedy sketch trend with relatable office humor and memes",2026-03-15T10:25:00Z

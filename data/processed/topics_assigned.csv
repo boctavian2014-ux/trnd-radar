@@ -1,0 +1,31 @@
+post_id,platform,author_id,author_name,followers,likes,comments,shares,views,text,created_at,topic_id,topic_confidence
+p001,reddit,u1001,u1001,0,0,0,0,0,AI agents automate social media workflows and content planning,2026-03-15T08:00:00Z,13,1.0
+p002,tiktok,u2001,u2001,0,0,0,0,0,Romania food trend with viral recipes and quick cooking hacks,2026-03-15T08:05:00Z,0,0.006912
+p003,reddit,u1002,u1002,0,0,0,0,0,Crypto market sentiment rises after bitcoin breakout and ETF news,2026-03-15T08:10:00Z,6,0.089966
+p004,twitter,u3001,u3001,0,0,0,0,0,New gaming laptop benchmarks and fps tests dominate tech timeline,2026-03-15T08:15:00Z,7,0.08699
+p005,reddit,u1003,u1003,0,0,0,0,0,Remote work productivity tools and async communication best practices,2026-03-15T08:20:00Z,4,0.093397
+p006,tiktok,u2002,u2002,0,0,0,0,0,Skincare routine for sensitive skin with affordable products,2026-03-15T08:25:00Z,14,1.0
+p007,reddit,u1004,u1004,0,0,0,0,0,Football transfer rumors and derby match predictions this weekend,2026-03-15T08:30:00Z,1,0.073864
+p008,twitter,u3002,u3002,0,0,0,0,0,Electric vehicle charging network expansion across europe,2026-03-15T08:35:00Z,9,1.0
+p009,reddit,u1005,u1005,0,0,0,0,0,Machine learning model drift monitoring and retraining strategy,2026-03-15T08:40:00Z,3,1.0
+p010,tiktok,u2003,u2003,0,0,0,0,0,Travel vlog in Bucharest with hidden places and coffee spots,2026-03-15T08:45:00Z,15,1.0
+p011,reddit,u1001,u1001,0,0,0,0,0,NLP pipelines for topic detection and trend analysis in reddit posts,2026-03-15T08:50:00Z,8,0.091839
+p012,twitter,u3003,u3003,0,0,0,0,0,UEFA champions league highlights and top goals recap,2026-03-15T08:55:00Z,16,1.0
+p013,reddit,u1002,u1002,0,0,0,0,0,Dividend investing strategy and portfolio rebalancing in volatile markets,2026-03-15T09:00:00Z,19,1.0
+p014,tiktok,u2004,u2004,0,0,0,0,0,Home workout challenge with bodyweight exercises and motivation tips,2026-03-15T09:05:00Z,2,0.001237
+p015,reddit,u1003,u1003,0,0,0,0,0,Cloud costs optimization for startups using autoscaling and spot instances,2026-03-15T09:10:00Z,2,0.0
+p016,twitter,u3004,u3004,0,0,0,0,0,New smartphone camera test low light comparison and zoom quality,2026-03-15T09:15:00Z,7,0.08699
+p017,reddit,u1004,u1004,0,0,0,0,0,Romanian politics debate and local election campaign narratives,2026-03-15T09:20:00Z,17,1.0
+p018,tiktok,u2005,u2005,0,0,0,0,0,Fashion outfit ideas for spring with minimalist style trends,2026-03-15T09:25:00Z,11,1.0
+p019,reddit,u1005,u1005,0,0,0,0,0,Basketball playoff race analysis and player efficiency stats,2026-03-15T09:30:00Z,5,0.091602
+p020,twitter,u3005,u3005,0,0,0,0,0,Cybersecurity breach response checklist for small businesses,2026-03-15T09:35:00Z,12,1.0
+p021,reddit,u1001,u1001,0,0,0,0,0,Startups fundraising tips and pitch deck storytelling examples,2026-03-15T09:40:00Z,2,0.018181
+p022,tiktok,u2006,u2006,0,0,0,0,0,Booktok recommendations for productivity and personal growth,2026-03-15T09:45:00Z,4,0.093397
+p023,reddit,u1002,u1002,0,0,0,0,0,Climate policy updates and renewable energy investments in EU,2026-03-15T09:50:00Z,1,0.073864
+p024,twitter,u3006,u3006,0,0,0,0,0,F1 qualifying session surprises and race strategy discussions,2026-03-15T09:55:00Z,5,0.091602
+p025,reddit,u1003,u1003,0,0,0,0,0,Data engineering pipelines with airflow orchestration and testing,2026-03-15T10:00:00Z,8,0.091839
+p026,tiktok,u2007,u2007,0,0,0,0,0,Street interview trend about salaries and career switching,2026-03-15T10:05:00Z,0,0.009032
+p027,reddit,u1004,u1004,0,0,0,0,0,Mental health routines for creators and burnout prevention habits,2026-03-15T10:10:00Z,10,1.0
+p028,twitter,u3007,u3007,0,0,0,0,0,Stock market opening moves and macroeconomic signals to watch,2026-03-15T10:15:00Z,6,0.089966
+p029,reddit,u1005,u1005,0,0,0,0,0,Python automation scripts for analytics dashboards and reporting,2026-03-15T10:20:00Z,18,1.0
+p030,tiktok,u2008,u2008,0,0,0,0,0,Comedy sketch trend with relatable office humor and memes,2026-03-15T10:25:00Z,0,0.007928
