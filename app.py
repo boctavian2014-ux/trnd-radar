@@ -27,6 +27,60 @@ def _default_mirofish_url() -> str:
     return os.getenv("MIROFISH_API_URL", "http://localhost:5001")
 
 
+def _perplexity_available() -> bool:
+    return bool(os.getenv("PERPLEXITY_API_KEY"))
+
+
+def render_perplexity_section() -> None:
+    st.subheader("Auto Research - Perplexity API")
+    if not _perplexity_available():
+        st.info("Seteaza `PERPLEXITY_API_KEY` in `.env` (local) sau Railway Variables.")
+        return
+
+    try:
+        from research.perplexity_client import PerplexityError, research_query
+    except Exception as e:
+        st.warning(f"Modulul Perplexity nu s-a incarcat: {e}. Verifica `src/research/`.")
+        return
+
+    with st.expander("Cauta rapid cu surse web", expanded=True):
+        query = st.text_area(
+            "Intrebare / task research",
+            placeholder="Ex: Care sunt trendurile sociale dominante in Romania in 2026 si ce impact au pentru branduri?",
+            height=100,
+            key="perplexity_query",
+        )
+        focus = st.text_input(
+            "Focus (optional)",
+            placeholder="Ex: retail, fintech, creator economy",
+            key="perplexity_focus",
+        )
+        model = st.text_input(
+            "Model (optional)",
+            value=os.getenv("PERPLEXITY_MODEL", "sonar"),
+            key="perplexity_model",
+        )
+
+        if st.button("Ruleaza research", type="primary"):
+            if not query.strip():
+                st.warning("Scrie o intrebare.")
+            else:
+                try:
+                    with st.spinner("Perplexity analizeaza..."):
+                        result = research_query(query=query.strip(), focus=focus.strip(), model=model.strip())
+                    st.success(f"Gata. Model: {result.get('model')}")
+                    st.markdown(result.get("answer") or "_Fara raspuns text._")
+                    citations = result.get("citations", [])
+                    if citations:
+                        st.markdown("**Surse:**")
+                        for idx, url in enumerate(citations, start=1):
+                            st.markdown(f"{idx}. {url}")
+                except PerplexityError as exc:
+                    st.error(str(exc))
+                except Exception as exc:
+                    st.error(f"Eroare neasteptata: {exc}")
+
+
 def render_comfy_section() -> None:
     if not _comfy_available():
         with st.expander("Comfy Cloud – imagine / video (necesita config)"):
@@ -388,6 +442,8 @@ def render_mirofish_section() -> None:
 
 if __name__ == "__main__":
     render_dashboard()
+    st.divider()
+    render_perplexity_section()
     st.divider()
     render_tiktok_section()
     st.divider()
